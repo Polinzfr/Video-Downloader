@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Medya İndirici
 
 Modern, modüler ve açık kaynak bir **Medya İndirme ve Dönüştürme** masaüstü uygulaması. YouTube ve yt-dlp tarafından desteklenen yüzlerce siteden (YouTube, TikTok, Instagram, Twitter/X ve daha fazlası) video veya ses indirmenizi sağlar; MP4, MP3 ve WAV formatlarına dönüştürme desteği sunar.
@@ -162,3 +163,6 @@ Bu proje açık kaynak olarak paylaşılmaktadır. Kendi lisansınızı `LICENSE
 ## Sorumluluk Reddi
 
 Bu araç yalnızca yasal olarak indirmeye hakkınız olan içerikler için kullanılmalıdır. Telif hakkı sahibi platformların kullanım şartlarına uyun.
+=======
+# Video-Downloader
+>>>>>>> 610a23efe87341612e17789855e081afe3643ed9
