@@ -5,7 +5,6 @@ Modern, modüler ve açık kaynak bir **Medya İndirme ve Dönüştürme** masa�
 
 ![Uygulama Ekran Görüntüsü](docs/screenshot.png)
 
-> **Not:** Ekran görüntüsü henüz eklenmedi. Uygulamayı çalıştırdıktan sonra bir ekran görüntüsü alıp `docs/screenshot.png` olarak kaydedebilirsiniz.
 
 ---
 
