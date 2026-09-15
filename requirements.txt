@@ -1,0 +1,28 @@
+# yt-dlp bilerek sıkı pinlenmiyor (örn. ==2024.x.x). Platformlar sitelerini
+# sık değiştiriyor; extractor güncellemeleri genellikle tek gerçek çözüm.
+# Düzenli güncelleme önerilir: pip install -U yt-dlp
+yt-dlp>=2024.1.1
+
+customtkinter>=5.2.0
+Pillow>=10.0.0
+
+# TikTok/Instagram indirmelerinin güvenilirliği için önerilen bağımlılık:
+# yt-dlp'nin 'impersonate' (TLS/HTTP2 parmak izi taklidi) özelliğini
+# etkinleştirir. Kurulu değilse uygulama çökmez, sessizce atlanır.
+# NOT: yt-dlp'nin desteklediği sürüm aralığı ile sınırlı (<0.16).
+curl_cffi>=0.7.0,<0.16
+
+# Opsiyonel: en güvenilir ses bildirim çalma yöntemi. Kurulu değilse
+# uygulama PowerShell/MediaPlayer veya native (winsound/MCI) fallback'ine
+# düşer (bkz. sound_notifier.py). Çok yeni Python sürümlerinde pygame'in
+# henüz derlenmiş wheel'i olmayabilir; bu durumda kurulum atlanabilir.
+# pygame>=2.5.0
+
+# Opsiyonel: URL kutusuna link sürükle-bırak desteği (bkz. ui.py). Kurulu
+# değilse uygulama normal çalışmaya devam eder, sadece DnD devre dışı kalır.
+tkinterdnd2>=0.4.0
+
+# Opsiyonel: sistem tepsisi (tray) desteği (bkz. ui.py _minimize_to_tray).
+# Kurulu değilse "minimize_to_tray" ayarının hiçbir etkisi olmaz, kapatma
+# butonu uygulamayı normal şekilde tamamen kapatır.
+pystray>=0.19.0
